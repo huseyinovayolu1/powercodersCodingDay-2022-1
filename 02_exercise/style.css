@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid rgba(195, 219, 219, 0.815);
+}
+svg {
+    margin-top: 0.7em;
+}
+h3 {
+    font-style: italic;
+    margin-left: 1em;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px none black;
+    background-color: rgba(223, 239, 239, 0.822);
+}
+.leftSidebar {
+    border: 1px solid rgb(195, 219, 219);
+    width: 20vw;
+    background-color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border: 1px solid rgb(223, 239, 239);
+    padding-left: 1em;
+    height: 3em;
+    color: rgb(141, 195, 195);
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(141, 195, 195);
+}
+.middleSidebar {
+    border: 1px none rgb(195, 219, 219);
+    width: 40vw;
+    height: max-content;
+    background-color: rgba(223, 239, 239, 0.822);
+    margin-left: 0;
+}
+.post{
+    border: 1px solid beige;
+    margin: 3em 3em 3em 0;
+    background-color: white;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 15, .2);
+    padding-left: 1em;
+    width: 40vw;
+}
+.postHeader {
+    color: rgb(188, 121, 121);
+}
+.postText {
+    color: rgb(90, 160, 149);
+}
+.rightSidebar {
+    border: 1px solid rgb(195, 219, 219);
+    width: 20vw;
+    background-color: white;
+
+}
+.advertisements{
+    list-style: none;
+    border: 1px solid rgb(223, 239, 239);
+    margin: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 20vh;
+    color: rgb(141, 195, 195);
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 25vh;
+    background-color: black;
+    color: white;
+}
+.bottomNavi {
+    margin-top: 0.8em;
+}
